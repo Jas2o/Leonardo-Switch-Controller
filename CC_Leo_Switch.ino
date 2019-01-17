@@ -1,13 +1,7 @@
-// Simple gamepad example that demonstraits how to read five Arduino
-// digital pins and map them to the Arduino Joystick library.
-//
-// The digital pins 2 - 6 are grounded when they are pressed.
-// Pin 2 = UP
-// Pin 3 = RIGHT
-// Pin 4 = DOWN
-// Pin 5 = LEFT
-// Pin 6 = FIRE
-//
+// Original https://github.com/MHeironimus/ArduinoJoystickLibrary (1.0 branch)
+// The purpose of this modified version is for use with a Nintendo Switch and Wii Classic Controller.
+//--------------------------------------------------------------------
+
 // NOTE: This sketch file is for use with Arduino Leonardo and
 //       Arduino Micro only.
 //
