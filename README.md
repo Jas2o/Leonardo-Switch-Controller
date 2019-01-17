@@ -17,8 +17,8 @@ Using Arduino Leonardo as a Pokken Tournament Pro Pad Wii U Controller that also
 As the WiiChuck Adapter was designed for Uno which has different I2C pins, rather than plugging into A2-A5 you must connect it to the Leonardo as follows:
 * i2c **d**ata to D2
 * i2c **c**lock to D3
-* - to GND
-* + to 3.3V
+* Negative to GND
+* Positive to 3.3V
 
 # Derived From
 * https://github.com/MHeironimus/ArduinoJoystickLibrary (Version 1.0)
