@@ -1,3 +1,6 @@
+// Original https://github.com/MHeironimus/ArduinoJoystickLibrary (1.0 branch)
+// The purpose of this modified version is for use with a Nintendo Switch.
+
 /*
   Joystick.h
 
