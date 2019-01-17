@@ -10,7 +10,11 @@ Using Arduino Leonardo as a Pokken Tournament Pro Pad Wii U Controller that also
 - [ ] Does not work Windows without changing part of Arduino Joystick Library back to how it should be.
 
 # Equipment and Setup
+* Arduino IDE (using 1.8.8 at the time of writing).
 * Arduino Leonardo with an altered boards.txt
+* From IDE/Tools/Boards select 'Leonardo Pokken'.
+* [Nintendo Extension Controller Library](https://github.com/dmadison/NintendoExtensionCtrl)
+* Altered Arduino Joystick Library 1.0 from here, the original is at https://github.com/MHeironimus/ArduinoJoystickLibrary
 * [Nunchucky](https://www.adafruit.com/product/345) or [WiiChuck Adapter](https://www.sparkfun.com/products/retired/9281)
 * Wii Classic Controller
 
@@ -20,7 +24,5 @@ As the WiiChuck Adapter was designed for Uno which has different I2C pins, rathe
 * Negative to GND
 * Positive to 3.3V
 
-# Derived From
-* https://github.com/MHeironimus/ArduinoJoystickLibrary (Version 1.0)
-* https://github.com/dmadison/NintendoExtensionCtrl
-* Reference: https://github.com/progmem/Switch-Fightstick
+# Other References
+* Hori Pokken controller descriptor info at https://github.com/progmem/Switch-Fightstick
