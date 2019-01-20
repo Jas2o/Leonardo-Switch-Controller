@@ -1,5 +1,5 @@
 # Leonardo-Switch-Controller
-Using Arduino Leonardo as a Pokken Tournament Pro Pad Wii U Controller that also works on Nintendo Switch as an almost Pro controller. Transfers input from a Wii Classic Controller.
+Using Arduino Leonardo as a Pokken Tournament Pro Pad Wii U Controller that also works on Nintendo Switch as an almost Pro controller. Transfers input from a Wii Classic Controller. The standard Leonardo firmware is used so it is easy to change back to normal or adjust the sketch if you want to do anything fancier.
 
 # Current Status
 - [x] Working on Switch, suitable for playing Super Smash Bros. Ultimate.
